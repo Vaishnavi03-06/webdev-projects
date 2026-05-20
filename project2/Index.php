@@ -123,7 +123,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])){
 }
 
 $editOrder= null;
-if(isset($_GET['edit ' ])){
+if(isset($_GET['edit' ])){
     $editId =intval($_GET['edit']);
     if(isset($_SESSION['orders'][$editId])){
         $editOrder =$_SESSION['orders'] [$editId];
